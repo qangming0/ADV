@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-23 14:40+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\calendars\models.py:24 .\calendars\models.py:34
+msgid "SUNDAY"
+msgstr "Chủ nhật"
+
+#: .\calendars\models.py:25 .\calendars\models.py:35
+msgid "MONDAY"
+msgstr "Thứ Hai"
+
+#: .\calendars\models.py:26 .\calendars\models.py:36
+msgid "TUESDAY"
+msgstr "Thứ Ba"
+
+#: .\calendars\models.py:27 .\calendars\models.py:37
+msgid "WEDNESDAY"
+msgstr "Thứ Tư"
+
+#: .\calendars\models.py:28 .\calendars\models.py:38
+msgid "THURSDAY"
+msgstr "Thứ Năm"
+
+#: .\calendars\models.py:29 .\calendars\models.py:39
+msgid "FRIDAY"
+msgstr "Thứ Sáu"
+
+#: .\calendars\models.py:30 .\calendars\models.py:40
+msgid "SATURDAY"
+msgstr "Thứ Bảy"
+
+#: .\common\macro.py:13 .\common\macro.py:19
+msgid "Varied"
+msgstr "Vãng lai"
+
+#: .\common\macro.py:14 .\common\macro.py:20
+msgid "Package"
+msgstr "Thuê bao"
+
+#: .\common\macro.py:15
+msgid "Special"
+msgstr "Đặc biệt"
+
+#: .\common\macro.py:30 .\system\models.py:19
+msgid "UnKnown"
+msgstr "Không xác định"
+
+#: .\common\macro.py:31
+msgid "Week"
+msgstr "Tuần"
+
+#: .\common\macro.py:32
+msgid "Month"
+msgstr "Tháng"
+
+#: .\common\macro.py:33
+msgid "Quater"
+msgstr "Quý"
+
+#: .\common\macro.py:34
+msgid "year"
+msgstr "Năm"
+
+#: .\common\macro.py:43
+msgid "Normal"
+msgstr "Ngày thường"
+
+#: .\common\macro.py:44
+msgid "Holiday"
+msgstr "Ngày lễ"
+
+#: .\common\macro.py:45
+msgid "Rested"
+msgstr "Ngày nghỉ"
+
+#: .\provider\serializers.py:19 .\provider\serializers.py:26
+msgid "Key must number."
+msgstr "Khóa chính không được để trống"
+
+#: .\system\models.py:20
+msgid "Access Controller"
+msgstr "Vào ra"
+
+#: .\system\models.py:21
+msgid "Lift"
+msgstr "Thang máy"
+
+#: .\system\models.py:22
+msgid "Car Parking"
+msgstr "Đỗ xe"
+
+#: .\system\models.py:23
+msgid "Lighting"
+msgstr "Ánh Sáng"
+
+#: .\system\models.py:24
+msgid "advertis"
+msgstr "Quảng cáo"
+
+#: .\system\models.py:25
+msgid "Fire Escape"
+msgstr "Thoát hiểm"
+
+#: .\system\models.py:42
+msgid "All read write"
+msgstr "Đọc và ghi"
+
+#: .\system\models.py:43
+msgid "Read only"
+msgstr "Chỉ đọc"

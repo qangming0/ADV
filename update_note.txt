@@ -1,0 +1,40 @@
+24/8
+- sửa requirement
+- authen\permission_modules.py 	: ugettext_lazy thành gettext_lazy
+- config\provider\apps.py      	: provider thành config.provider
+- config\system\apps.py     	: system thành config.system
+- config\common\apps.py      	: common thành config.common
+- config\users\apps.py      	: userconfig thành config.user
+- modules\adversiting\apps.py 	: adversiting thanh modules.adversiting
+- authen\models.py 		: ugettext_lazy thành gettext_lazy
+- device\models.py		: ugettext_lazy thành gettext_lazy
+- config\provider\models.py     : ugettext_lazy thành gettext_lazy
+- config\system\models.py	: ugettext_lazy thành gettext_lazy
+- config\common\models.py	: ugettext_lazy thành gettext_lazy
+- modules\adversiting\models.py : ugettext_lazy thành gettext_lazy
+- notify\models.py		: ugettext_lazy thành gettext_lazy
+- positioncontrol\models.py	: ugettext_lazy thành gettext_lazy
+- ADVX\settings.py 		: thêm allauth.account.middleware.AccountMiddleware trong MIDDLEWARE
+- .env				: MYSQL_DBNAME=adv thành MYSQL_DBNAME=advx_v2
+- .env				: MYSQL_PASSWORD=123456 thành MYSQL_PASSWORD=123
+- notify\process.py		: ugettext_lazy thành gettext_lazy
+- synch\modules\adv\adv_view.py	: ugettext_lazy thành gettext_lazy
+- synch\modules\adv\adv_handle.py : ugettext_lazy thành gettext_lazy
+- core\mqbroker\topic.py	: ugettext_lazy thành gettext_lazy
+- bổ sung patch.py
+- core/errorhandler/views.py 	:from django.templatetags.static import static
+-ADVX\settings.py		: bổ sung SITE_ID = 1
+
+25/8
+- ADVX\settings.py 		: trong INSTALLED_APPS sửa rest_auth thành dj_rest_auth tương tự với rest_auth.registration
+- authen\serializers.py		: đổi rest_auth thành dj_rest_auth
+- authen\views.py		: đổi rest_auth thành dj_rest_auth
+- cập nhật patch.py		: sửa toàn bộ rest_auth thành dj_rest_auth
+- manage.py			: import patch
+- ADVX\setting.py		: đặt thời gian cho token
+				: cập nhật rest_framework
+				: bổ sung cấu hình swagger 
+- ADVX				: bổ sung views.py
+- templates 			: bổ sung login.html
+- ADVX\urls.py			: bổ sung thư viện, swagger và token
+				: bổ sung và chỉnh sửa 1 vài path

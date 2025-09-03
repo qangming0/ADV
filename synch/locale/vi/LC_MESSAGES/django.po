@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-11 09:06+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\models.py:20
+msgid "IDE"
+msgstr "IDE"
+
+#: .\models.py:21
+msgid "INSERT"
+msgstr "Thêm"
+
+#: .\models.py:22
+msgid "DELETE"
+msgstr "Xóa"
+
+#: .\models.py:23
+msgid "UPDATE"
+msgstr "Cập nhật"
+
+#: .\modules\acc\acc_view.py:30 .\modules\acc\acc_view.py:48
+#: .\modules\lift\lift_view.py:23 .\modules\lift\lift_view.py:37
+#: .\modules\lighting\lighting_view.py:29
+#: .\modules\lighting\lighting_view.py:43
+msgid "Anydevice be not choised"
+msgstr "Chưa có thiết bị nào được chọn"
+
+#: .\modules\acc\acc_view.py:43
+msgid "Got CardReader has failed!"
+msgstr ""
+
+#: .\modules\acc\acc_view.py:69 .\modules\acc\acc_view.py:92
+#: .\modules\acc\acc_view.py:112
+msgid "AnyCardReader be not choised"
+msgstr ""
+
+#: .\modules\acc\acc_view.py:88
+msgid "CardNumber has got failed!"
+msgstr ""
+
+#: .\modules\acc\acc_view.py:141 .\modules\lighting\lighting_view.py:247
+msgid "Synchronize has got failed!"
+msgstr ""
+
+#: .\modules\acc\acc_view.py:145
+msgid "AnyPersonnel be not choised"
+msgstr ""
+
+#: .\modules\card\card_view.py:45
+msgid "Not any person be choised"
+msgstr ""
+
+#: .\modules\card\card_view.py:62
+msgid "Not any devices be choised"
+msgstr ""
+
+#: .\modules\card\card_view.py:82
+msgid "Not any devices be synchronized"
+msgstr ""
+
+#: .\modules\lighting\lighting_view.py:66
+#: .\modules\lighting\lighting_view.py:69
+#: .\modules\lighting\lighting_view.py:135
+#: .\modules\lighting\lighting_view.py:243
+msgid "AnyZone be not choised"
+msgstr ""
+
+#: .\modules\lighting\lighting_view.py:112
+msgid "Zone is choised not into Manual Mode"
+msgstr ""
+
+#: .\modules\lighting\lighting_view.py:175
+msgid "AnyLine be not choised"
+msgstr ""

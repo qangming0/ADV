@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% load static %}
+<head>
+    <meta charset="utf-8"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+
+    <title>advx</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon/favicon.png' %}"/>
+    <link href="{% static 'favicon/apple-touch-icon.png' %}" rel="apple-touch-icon-precomposed"/>
+    <link href="{% static 'favicon/apple-touch-icon-114x114.png' %}" sizes="114x114" rel="apple-touch-icon-precomposed"/>
+    <link href="{% static 'favicon/apple-touch-icon-72x72.png' %}" sizes="72x72" rel="apple-touch-icon-precomposed"/>
+    <link href="{% static 'favicon/apple-touch-icon-144x144.png' %}" sizes="144x144" rel="apple-touch-icon-precomposed"/>
+
+    <meta name="description" content="BMS"/>
+    <meta name="twitter:card" content="{% static 'image/logo.png' %}"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="advx"/>
+    <meta property="og:description" content="BMS"/>
+    <meta property="og:image" content="{% static 'image/logo.png' %}"/>
+    <meta property="fb:app_id" content=""/>
+    <meta name="keywords" content=""/>
+    <link rel="manifest" href="/manifest.json"/>
+
+    <link rel="stylesheet" href="{% static 'css/util.css' %}">
+    <link rel="stylesheet" href="{% static 'css/authen.css' %}">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100 p-t-85 p-b-20">
+            <div id="app">
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="{% static 'js/vue/vauth.js' %}"></script>
+    <script src="{% static 'thirdparty/jquery/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/auth.js' %}"></script>
+</body>
+</html>

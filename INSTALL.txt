@@ -1,0 +1,53 @@
+API: Ref https://documenter.getpostman.com/view/2427878/SW7aXnxh?version=latest
+INSTALL:
+1. Invironment Requirements:
+- Python 3.6.7
+- Mysql  ver 14.14 Distrib 5.7.27
+- Redis-server v=3.0.6
+- Mosquito ( Mqtt )
+- Nginx 1.10.3
+- Node - v8.16.2 ( cài qua nvm )
+
+2. Install depends
+2.1: Install virtualenv
+cd <Source_Root_Dir>
+>> python3.6 -m pip install virtualenv
+>> python3.6 -m virtualenv venv
+>> source venv/bin/activate
+
+2.2: Install requirments
+cd <Source_Root_Dir>/src/
+>> apt-get install python3-dev libmysqlclient ssl-dev
+>> python3.6 -m pip install -r requirement.txt
+
+3. Configuration
+3.1: Create datababse
+>> mysql -u root -p
+>> CREATE DATABASE <db_adv> CHARACTER SET utf8 COLLATE utf8_general_ci;
+>> quit;
+
+3.2: Set .env config file
+>> cp env_template.txt .env
+>> vi .env # config db, mqtt, MEDIA_DOMAIN, ..
+
+4. Run APP
+>> cd <Source_Root_Dir>/src/
+>> python3.6 manage.py runserver 0.0.0.0:8001
+
+5. Deploy ( refer deploy folder )
+
+6. Streaming OBS
+6.1 Install RTMP Server (Ref: https://github.com/ossrs/srs )
+>> git clone https://github.com/ossrs/srs.git
+>> cd srs/trunk
+>> ./configuration
+>> make
+>> ./objs/srs -c conf/srs.conf
+
+6.2 Install OBS Live streaming (Ref: https://obsproject.com/wiki/install-instructions#linux )
+>> apt-get install ffmpeg
+>> add-apt-repository ppa:obsproject/obs-studio
+>> apt-get update
+>> apt-get install obs-studio
+
+
